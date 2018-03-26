@@ -75,7 +75,7 @@ html {
 } 
 
 /* Header */
-header {
+.header {
   background-image: url("images/header-bg.jpg");
   background-size:cover;
   background-repeat: no-repeat;
@@ -153,8 +153,11 @@ header {
   display: grid;
   grid-gap: 1.5rem;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  opacity: 1;
+  transition: opacity 0.5s linear;
 }
-.front-end {
+
+/* .front-end {
   display: grid;
   
 }
@@ -164,7 +167,8 @@ header {
 
 .design {
   display: none;
-}
+} */
+
 .skill {
   font-size: 10rem;
   color: var(--primary);
@@ -181,9 +185,22 @@ header {
 
 .skill p {
   font-size:2rem;
+  font-family: Cookie;
   margin: 0;
   color: var(--dark);
 }
+
+.grayed {
+  opacity: 0.8;
+  color: var(--dark);
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 0.5s linear;
+  height: 0;
+}
+
 
 
 /* Contact */
@@ -221,6 +238,10 @@ header {
   border: 1px solid #ddd;
 }
 
+.fa-envelope {
+  margin-right: 1rem;
+}
+
 .message-btn:hover {
   background: var(--primary);
   color: var(--light);
@@ -255,6 +276,27 @@ footer {
   margin-top: 5rem;
 }
 
+/* Work Page Rules */
+.work-header, .blog-header {
+  background: var(--bg);
+  font-size: 5rem;
+  text-align: center;
+  padding: 1rem 1rem 0;
+  color: var(--primary);
+}
+
+.construction {
+  padding: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--dark);
+}
+
+
+
+
+/* Blog Page Rules */
+
 @media(max-width: 700px) {
   .wrapper {
     padding: 0 1rem;
@@ -263,8 +305,6 @@ footer {
   .main-nav ul {
     /* margin-top: 0; */
   }
-
- 
 }
 
 @media(max-width: 500px) {
@@ -283,8 +323,6 @@ footer {
     padding: 0 2rem 0 0;
     grid-column-gap: 1rem;
     margin: 1rem;
-
-
   }
 
 
