@@ -1,1 +1,1 @@
-sitemap: https://hdkhalili.github.io/sitemap.xml
+Sitemap: https://hdkhalili.github.io/sitemap.xml
