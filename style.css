@@ -257,6 +257,7 @@ html {
 .linkedin, .twitter, .github {
   color: var(--primary);
   font-size: 5rem;
+  margin: 1rem;
   cursor: pointer;
 }
 
