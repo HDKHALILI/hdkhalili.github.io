@@ -10,12 +10,13 @@
 - Light: #fff
 - Background-color: #F0F0F0
 > I have chosen turqoise as my primary color because it is my favourite color.
+
 > They gives sense of clarity.
 
 ### Fonts
 - Cookie
 - Cormorant
-> They are both easy to read and have a cheerfull and professional looks to it.
+> They are both easy to read and have a cheerfull and professional looks to them.
 
 ### Icons
 - Fontawesome
