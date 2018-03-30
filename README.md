@@ -4,9 +4,13 @@
 
 ## Style Guide
 
-### Color
-I have chosen turqoise as my primary color because it is my favourite color.
-It gives sense of clarity.
+### Colors
+- Primary: #4AB19A
+- Secondary: #545454
+- Light: #fff
+- Background-color: #F0F0F0
+> I have chosen turqoise as my primary color because it is my favourite color.
+> They gives sense of clarity.
 
 ### Fonts
 - Cookie
